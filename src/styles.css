@@ -1,0 +1,71 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+nav {
+  background-color: rebeccapurple;
+  margin: 0;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav button {
+  height: 20%;
+}
+
+.wrap {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  margin: auto;
+}
+
+.login {
+  padding: 2rem;
+}
+
+.login h2 {
+  text-align: center;
+}
+
+form {
+  margin-top: 20px;
+  width: 60%;
+  margin: auto;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+#login {
+  background-color: #008080;
+  color: white;
+  border-radius: 5px;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.container {
+  padding: 20px;
+}
+
+.log-out {
+  padding: 0.5rem;
+}
